@@ -61,7 +61,7 @@ Widget::Widget(QWidget *parent)
     });
 
     QMovie *movie1;
-    movie1= new QMovie(":/C:/Users/Axuanz/Desktop/fdfa67b3-14a3-47e4-a56c-4a8cd20d23a6.gif");
+    movie1= new QMovie(":/res.gif");
     ui->label_3->setMovie(movie1);
     movie1->start();
 
